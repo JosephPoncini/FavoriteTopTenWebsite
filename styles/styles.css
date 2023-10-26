@@ -4,3 +4,15 @@ body{
   background-size:cover;
   background-repeat: no-repeat;
 }
+
+.red{
+  font-size: 70px;
+  color: red;
+  font-weight: bold;
+}
+
+.white{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
