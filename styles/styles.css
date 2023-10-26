@@ -1,5 +1,6 @@
 body{
+  background-color: #4C9C08;
   background-image: url('../assets/bg-field-sky.40b4b356.png');
-  background-size:auto;
+  background-size:cover;
   background-repeat: no-repeat;
 }
