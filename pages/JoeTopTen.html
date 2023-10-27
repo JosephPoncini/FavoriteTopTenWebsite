@@ -11,24 +11,58 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 100px;
+      width: 100px;
+      outline: black;
+      background-size: 100%, 100%;
+      border-radius: 50%;
+      border: 1px solid black;
+      background-image: none;
+    }
+
+    .carousel-control-next-icon:after {
+      content: '>';
+      font-size: 55px;
+      color: black;
+    }
+
+    .carousel-control-prev-icon:after {
+      content: '<';
+      font-size: 55px;
+      color: black;
+    }
+  </style>
 </head>
 
 <body>
 
-  <ul class="nav justify-content-center" style="background-color: #ADF8B9;">
-    <li class="nav-item">
-      <a class="nav-link" href="../index.html"><img src="../assets/Home Button.png" width="auto" height="50"
-          alt="Home Page Icon and Text"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./JoeTopTen.html"><img src="../assets/Joe Top 10.png" width="auto" height="50"
-          alt="Top Ten Icon and Text"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./YokTopTen.html"><img src="../assets/Yok Top Ten.png" width="auto" height="50"
-          alt="Honorable Mentions Icon and Text"></a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand-lg " style="background-color: #ADF8B9;">
+    <div class="container-fluid d-flex justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="nav justify-content-center" style="background-color: #ADF8B9;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html"><img src="/assets/Home Button.png" width="auto"
+                height="50" alt="Home Page Icon and Text"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/JoeTopTen.html"><img src="/assets/Joe Top 10.png" width="auto" height="50"
+                alt="Top Ten Icon and Text"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/YokTopTen.html"><img src="/assets/Yok Top Ten.png" width="auto"
+                height="50" alt="Honorable Mentions Icon and Text"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <h1 class="black d-flex justify-content-center">The Top 10:</h1>
   <h1 class="black d-flex justify-content-center">Joseph Poncini Picks</h1>
@@ -93,31 +127,26 @@
 
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #D9D9D9">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" style="background-color: #D9D9D9">
           <div class="row">
             <div class="col-6 column">
-              <div class="container">
 
-                <p class="blacker">Number 10</p>
-
-
-                <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Sheep.webp"
-                    class="autoPet" alt=""></div>
+              <p class="blacker">Number 10</p>
 
 
-                <p class="blacker">Sheep</p>
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Sheep.webp"
+                  class="autoPet" alt=""></div>
 
-              </div>
+
+              <p class="blacker">Sheep</p>
+
             </div>
-            <div class="col-6">
+            <div class="col-6 column">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div class="container-fluid d-flex justify-content-center" height= 75%>
+                <iframe width= 75% height= 100% src="https://www.youtube.com/embed/L79RaC--TXI?si=g8yjW-r_DYauhLoL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -131,32 +160,29 @@
       <div class="carousel-item">
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #e5fdce">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #e5fdce">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 column">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div  class="container-fluid d-flex justify-content-center" height= 75%>
+                <iframe width= 75% height= 100% src="https://www.youtube.com/embed/4PPsBs2OOUY?si=KuZ4rU-_lyOP4eXD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 9</p>
 
 
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Giraffe.webp" class="autoPet" alt=""></div>
+              <p class="blacker">Number 9</p>
 
 
-                <p class="blacker">Bison</p>
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Giraffe.webp"
+                  class="autoPet" alt=""></div>
 
-              </div>
+
+              <p class="blacker">Giraffe</p>
+
             </div>
 
           </div>
@@ -169,31 +195,28 @@
 
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #cde9fd">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #cde9fd">
           <div class="row">
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 8</p>
 
 
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Deer.webp" class="autoPet" alt=""></div>
+              <p class="blacker">Number 8</p>
 
 
-                <p class="blacker">Deer</p>
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Deer.webp"
+                  class="autoPet" alt=""></div>
 
-              </div>
+
+              <p class="blacker">Deer</p>
+
             </div>
-            <div class="col-6">
+            <div class="col-6 column">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/ByHcEMwuqQo?si=iCQaweirXF01pBlp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -207,31 +230,64 @@
 
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: hsl(271, 100%, 90%)">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: hsl(271, 100%, 90%)">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 column">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/V-IVNFlpp0k?si=00wyw7YySrdVxJ1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 7</p>
 
 
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Camel.webp" class="autoPet" alt=""></div>
+              <p class="blacker">Number 7</p>
 
 
-                <p class="blacker">Camel</p>
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Camel.webp"
+                  class="autoPet" alt=""></div>
 
+
+              <p class="blacker">Camel</p>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="carousel-item">
+
+
+
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #ffebb7">
+          <div class="row">
+            <div class="col-6 column">
+
+
+              <p class="blacker">Number 6</p>
+
+
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Peacock.webp"
+                  class="autoPet" alt=""></div>
+
+
+              <p class="blacker">Peacock</p>
+
+
+            </div>
+            <div class="col-6 column">
+              <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
+                praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
+                temporibus rerum aut.</p>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/MC3GBEvArW8?si=U33YbmDGdeC053J2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -245,31 +301,64 @@
 
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #ffebb7">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #b8f7c5">
           <div class="row">
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 6</p>
-
-
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Peacock.webp" class="autoPet" alt=""></div>
-
-
-                <p class="blacker">Peacock</p>
-
-              </div>
-            </div>
-            <div class="col-6">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/WAqR8Up-Pfs?si=cUsVHhDXdvh_d9Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-6 column column">
+
+
+              <p class="blacker">Number 5</p>
+
+
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Tiger.webp"
+                  class="autoPet" alt=""></div>
+
+
+              <p class="blacker">Tiger</p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="carousel-item">
+
+
+
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #ffd4d4">
+          <div class="row">
+            <div class="col-6 column">
+
+
+              <p class="blacker">Number 4</p>
+
+
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Guineafowl.webp"
+                  class="autoPet" alt=""></div>
+
+
+              <p class="blacker">Guineafowl</p>
+
+            </div>
+            <div class="col-6 column">
+              <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
+                praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
+                temporibus rerum aut.</p>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/puIxLw5Bvcs?si=hnEPUJdZWt8kdv8T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -283,31 +372,65 @@
 
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #b8f7c5">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #c2fac3">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 column">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/74-BP3fcQb8?si=0nWkAoGFajNgzmLn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 5</p>
 
 
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Tiger.webp" class="autoPet" alt=""></div>
+              <p class="blacker">Number 3</p>
 
 
-                <p class="blacker">Tiger</p>
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Snake.webp"
+                  class="autoPet" alt=""></div>
 
+
+              <p class="blacker">Snake</p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="carousel-item">
+
+
+
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #c6c9f6">
+          <div class="row">
+            <div class="col-6 column">
+
+
+              <p class="blacker">Number 2</p>
+
+
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Monkey.webp"
+                  class="autoPet" alt=""></div>
+
+
+              <p class="blacker">Monkey</p>
+
+
+            </div>
+            <div class="col-6 column">
+              <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
+                praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
+                temporibus rerum aut.</p>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/QMc-vO7RYPE?si=pD8s-XP68WjprQgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -321,146 +444,29 @@
 
 
 
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #ffd4d4">
+        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50%
+          style="background-color: #e4bdfd">
           <div class="row">
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 4</p>
-
-
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Guineafowl.webp" class="autoPet" alt=""></div>
-
-
-                <p class="blacker">Guineafowl</p>
-
-              </div>
-            </div>
-            <div class="col-6">
               <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
                 praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
                 temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-      </div>
-      <div class="carousel-item">
-
-
-
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #c2fac3">
-          <div class="row">
-            <div class="col-6">
-              <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
-                praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
-                temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+              <div class="container-fluid d-flex justify-content-center">
+                <iframe width= 75% height= 100%  src="https://www.youtube.com/embed/rxDWh4R9aDc?si=AoaaMeT7PrUwlU9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 3</p>
 
 
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Snake.webp" class="autoPet" alt=""></div>
+              <p class="blacker">Number 1</p>
 
 
-                <p class="blacker">Snake</p>
-
-              </div>
-            </div>
-          </div>
-        </div>
+              <div class="d-flex justify-content-center pt-4 pb-4"><img src="../assets/JosephsPets/Cat.webp"
+                  class="autoPet" alt=""></div>
 
 
+              <p class="blacker">Cat</p>
 
-
-      </div>
-      <div class="carousel-item">
-
-
-
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #c6c9f6">
-          <div class="row">
-            <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 2</p>
-
-
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Monkey.webp" class="autoPet" alt=""></div>
-
-
-                <p class="blacker">Monkey</p>
-
-              </div>
-            </div>
-            <div class="col-6">
-              <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
-                praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
-                temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-      </div>
-      <div class="carousel-item">
-
-
-
-        <div class="container card d-flex justify-content-center pt-3 pb-5" width: 50% style="background-color: #e4bdfd">
-          <div class="row">
-            <div class="col-6">
-              <p class="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint mollitia sed eligendi
-                praesentium aut eius libero iure sequi delectus ipsa impedit, fugit saepe, veniam enim! Distinctio animi
-                temporibus rerum aut.</p>
-              <div class="d-flex justify-content-center">
-                <iframe width=75% src="https://www.youtube.com/embed/FJj7of5epko?si=GH2LJkifVe_QhQqp"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-6 column">
-              <div class="container">
-
-                <p class="blacker">Number 1</p>
-
-
-                <div class="d-flex justify-content-center pt-4 pb-4"><img
-                    src="../assets/JosephsPets/Cat.webp" class="autoPet" alt=""></div>
-
-
-                <p class="blacker">Cat</p>
-
-              </div>
             </div>
           </div>
         </div>

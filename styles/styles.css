@@ -44,12 +44,13 @@ h1{
   align-items: center;
   text-align: center;
   font-weight: bold;
-  font-size: larger;
+  font-size: 3rem;
 
 }
 
 .card{
-  width: 50%;
+  width: 60%;
+  height: 30rem;
   display: flex;
   justify-content: center;
 }
@@ -61,7 +62,7 @@ h1{
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vertically align the container */
+  justify-content: space-evenly; /* Vertically align the container */
 }
 
 .carousel-caption {
