@@ -71,8 +71,6 @@ h1{
   max-width: 700px;
   right: 0;
   top: 1px;
-  xtransform: translateY(-50%);
-  xbottom: initial;
   background: rgba(0,0,0,0.3);
   padding: 10px;
   height: 100%;
@@ -82,4 +80,18 @@ h1{
 .carTitle{
   justify-content: left;
   display: flex;  
+  padding: 30px !important;
+  margin-left: 100px !important;
+}
+
+.carName{
+  justify-content: left;
+  display: flex;  
+  padding: 30px !important;
+  margin-left: 150px !important;
+  
+}
+
+.moveLeft{
+  margin-left: 130px;
 }
