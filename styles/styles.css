@@ -95,3 +95,24 @@ h1{
 .moveLeft{
   margin-left: 130px;
 }
+
+.desktopMode {
+  display: none;
+}
+
+/* Show the container when the window width is 768px or larger */
+@media (min-width: 821px) {
+  .desktopMode{
+      display: block;
+  }
+}
+
+.tabletMode {
+  display: none;
+}
+
+@media (max-width: 820px) {
+  .tabletMode{
+      display: block;
+  }
+}
