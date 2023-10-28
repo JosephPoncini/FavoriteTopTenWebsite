@@ -37,6 +37,16 @@ h1{
 
 }
 
+.blackTablet{
+  font-family: 'Inika', 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 80%;
+
+}
+
 .blacker{
   font-family: 'Inika', 'Times New Roman', Times, serif;
   display: flex;
@@ -55,8 +65,23 @@ h1{
   justify-content: center;
 }
 
+.tabletCard{
+  width: 95%;
+  height: auto;
+  padding-top: 3;
+  padding-bottom: 3;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  
+}
+
 .autoPet{
   width: 35%;
+}
+
+.autoPetTableMode{
+  width: 55%;
 }
 
 .column {
