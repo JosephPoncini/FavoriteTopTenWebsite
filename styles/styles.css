@@ -29,7 +29,7 @@ h1{
   padding-bottom: 50px;
 }
 
-.black{
+.blackTitle{
   font-family: 'Inika', 'Times New Roman', Times, serif;
   display: flex;
   justify-content: center;
@@ -38,12 +38,32 @@ h1{
 
 }
 
-.blackTablet{
+.black{
   font-family: 'Inika', 'Times New Roman', Times, serif;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 80%;
+
+}
+
+.blackTabletRight{
+  font-family: 'Inika', 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  font-size: 80%;
+
+}
+
+.blackTabletLeft{
+  font-family: 'Inika', 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  text-align: left;
   font-size: 80%;
 
 }
